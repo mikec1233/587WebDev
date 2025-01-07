@@ -1,0 +1,20 @@
+1. going to move routing logic out of main.js into seperate router folder going to seperate contoller logic as well.
+2. add controller logic for connecting to database. 
+3. refactor preexisting logic to use database
+4. add update logic.
+5. testing.
+
+User schema:
+
+userSchema 
+name
+    type: string
+    require: true
+
+gender
+    type: string
+    require: true
+
+id
+    type: number 
+    require: true

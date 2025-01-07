@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/css/styles.css">
+	<title>Project 1</title>
+</head>
+
+<body>
+	<div id="nav">
+		<div class="col-6 center">
+			<span>Top Navigation: </span>
+			<a href="/"><span class="button">Home</span></a>
+			<a href="/users"><span class="button">Users</span></a>
+			<a href="/contact"><span class="button">Contact</span></a>
+			<a href="/remove"><span class="button">Remove</span></a>	
+		</div>
+	</div>
+	<div id="bottom-nav">
+		<p>Bottom Navigation: (Nothing)</p>
+	  </div>
+
+	<%- body %>
+
+
+	<footer id="footer">
+		<p>&copy; <%= new Date() %> </p>
+	  </footer>
+</body>
+
+</html>

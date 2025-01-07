@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="col-6">
+  </div>
+  <div class="col-6">
+    <h1 class="title">Our Users</h1>
+    <% allUsers.forEach(Users => { %>
+      <h3>User Name: <%= Users.name %> </h3>
+      <p class="indented">User Gender: <%= Users.gender %> </p>
+      <p class="indented">User Id: <%= Users.id %> </p>
+      <%}); %>
+  </div>
+</div>
